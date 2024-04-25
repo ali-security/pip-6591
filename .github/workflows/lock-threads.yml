@@ -1,8 +1,6 @@
 name: 'Lock Closed Threads'
 
 on:
-  schedule:
-    - cron: '0 7 * * *'  # 7am UTC, daily
   workflow_dispatch:
 
 permissions:
